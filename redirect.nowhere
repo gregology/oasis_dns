@@ -1,0 +1,12 @@
+$TTL    600
+@       IN      SOA     localhost root (
+                                    42         ; Serial
+                                    3H         ; Refresh
+                                   15M         ; Retry
+                                    1W         ; Expire
+                                   1D)         ; Default TTL
+;
+                A       127.0.0.1 ; This means that facebook.com gets directed to the designated address
+*       IN      A       127.0.0.1 ; This wildcard entry means that any permutation of foo.facebook.com gets directed to the designated address
+                AAAA    ::1 ; This means that naughydomain.com gets directed to IPv6 localhost
+*       IN      AAAA    ::1 ; This wildcard entry means that any permutation of xxx.naughtydomain.com gets directed to IPv6
