@@ -1,0 +1,13 @@
+zone "facebook.com" {type master​; file "/etc/bind/zones/master/blockeddomains.db";};
+zone "facebook.net" {type master​; file "/etc/bind/zones/master/blockeddomains.db";};
+zone "tfbnw.net" {type master​; file "/etc/bind/zones/master/blockeddomains.db";};
+zone "fbcdn.net" {type master​; file "/etc/bind/zones/master/blockeddomains.db";};
+zone "fbcdn.com" {type master​; file "/etc/bind/zones/master/blockeddomains.db";};
+zone "fbsbx.com" {type master​; file "/etc/bind/zones/master/blockeddomains.db";};
+zone "fb.com" {type master​; file "/etc/bind/zones/master/blockeddomains.db";};
+zone "fb.me" {type master​; file "/etc/bind/zones/master/blockeddomains.db";};
+zone "facebook.de" {type master​; file "/etc/bind/zones/master/blockeddomains.db";};
+zone "facebook.fr" {type master​; file "/etc/bind/zones/master/blockeddomains.db";};
+zone "fbcdn-creative-a.akamaihd.net" {type master​; file "/etc/bind/zones/master/blockeddomains.db";};
+zone "instagramstatic-a.akamaihd.net" {type master​; file "/etc/bind/zones/master/blockeddomains.db";};
+zone "fbstatic-a.akamaihd.net" {type master​; file "/etc/bind/zones/master/blockeddomains.db";};
