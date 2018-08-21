@@ -1,0 +1,39 @@
+// Facebook
+zone "facebook.com" { type master; file "/etc/bind/block"; };
+zone "facebook.net" { type master; file "/etc/bind/block"; };
+zone "tfbnw.net" { type master; file "/etc/bind/block"; };
+zone "fbcdn.net" { type master; file "/etc/bind/block"; };
+zone "fbcdn.com" { type master; file "/etc/bind/block"; };
+zone "fbsbx.com" { type master; file "/etc/bind/block"; };
+zone "fb.com" { type master; file "/etc/bind/block"; };
+zone "fb.me" { type master; file "/etc/bind/block"; };
+zone "facebook.de" { type master; file "/etc/bind/block"; };
+zone "facebook.fr" { type master; file "/etc/bind/block"; };
+zone "fbcdn-creative-a.akamaihd.net" { type master; file "/etc/bind/block"; };
+zone "fbstatic-a.akamaihd.net" { type master; file "/etc/bind/block"; };
+
+// Instagram
+zone "instagram.com" { type master; file "/etc/bind/block"; };
+zone "cdninstagram.com" { type master; file "/etc/bind/block"; };
+
+// LinkedIn
+zone "linkedin.com" { type master; file "/etc/bind/block"; };
+
+// MySpace
+zone "myspace.com" { type master; file "/etc/bind/block"; };
+
+// Pinterest
+zone "pinterest.com" { type master; file "/etc/bind/block"; };
+
+// Reddit
+zone "reddit.com" { type master; file "/etc/bind/block"; };
+zone "redd.it" { type master; file "/etc/bind/block"; };
+zone "amp-reddit-com.cdn.ampproject.org" { type master; file "/etc/bind/block"; };
+
+// Tumblr
+zone "tumblr.com" { type master; file "/etc/bind/block"; };
+
+// Twitter
+zone "twitter.com" { type master; file "/etc/bind/block"; };
+zone "twimg.com" { type master; file "/etc/bind/block"; };
+zone "t.co" { type master; file "/etc/bind/block"; };
