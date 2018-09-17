@@ -37,3 +37,7 @@ zone "tumblr.com" { type master; file "/etc/bind/block"; };
 zone "twitter.com" { type master; file "/etc/bind/block"; };
 zone "twimg.com" { type master; file "/etc/bind/block"; };
 zone "t.co" { type master; file "/etc/bind/block"; };
+
+// YouTube
+zone "googlevideo.com" { type master; file "/etc/bind/block"; };
+zone "youtube.com" { type master; file "/etc/bind/block"; };
