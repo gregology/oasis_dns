@@ -1,3 +1,7 @@
+# Deprecation warning
+
+This DNS server will be deprecated shortly. Checkout [github.com/memair/dns](https://github.com/memair/dns) for a similar project.
+
 # Oasis DNS
 
 DNS blocking of social media domains on Tuesdays & Thursdays UTC.
